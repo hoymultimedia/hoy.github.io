@@ -17,4 +17,9 @@ a {
   text-decoration: none;
   outline: none;
   width: 25%;
+  transition: width 0.2s ease-in;
+}
+
+a:hover {
+  width: 26%;
 }
